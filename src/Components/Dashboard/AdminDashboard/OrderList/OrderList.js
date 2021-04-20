@@ -5,7 +5,7 @@ import OrderItemAdmin from './OrderItemAdmin/OrderItemAdmin';
 const OrderList = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://insurance-agency-server.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])

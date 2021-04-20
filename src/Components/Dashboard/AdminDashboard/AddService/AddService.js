@@ -14,7 +14,7 @@ const AddService = () => {
                 price: data.service_price,
                 imageUrl: imageUrl
             }
-            const url = 'http://localhost:5000/addService';
+            const url = 'https://insurance-agency-server.herokuapp.com/addService';
             fetch(url, {
                 method: 'POST',
                 headers: {

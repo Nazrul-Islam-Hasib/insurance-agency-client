@@ -10,7 +10,7 @@ const MakeAdmin = () => {
             name: data.name,
             email: data.email,
         }
-        const url = 'http://localhost:5000/addAdmin';
+        const url = 'https://insurance-agency-server.herokuapp.com/addAdmin';
         fetch(url, {
             method: 'POST',
             headers: {

@@ -4,7 +4,7 @@ const OrderItemAdmin = (props) => {
     const { name, price, email, service, status, _id, paymentId } = props.order;
     const [updatedStatus, setUpdatedStatus] = useState('');
     const updateOrder = (id) => {
-        const url = `http://localhost:5000/update/${id}`
+        const url = `https://insurance-agency-server.herokuapp.com/update/${id}`
         const updateData = { updatedStatus}
         fetch(url, {
             method: 'PATCH',

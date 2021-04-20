@@ -4,7 +4,7 @@ import SingleReview from './SingleReview/SingleReview';
 const Testimonial = () => {
     const [review, setReview] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://insurance-agency-server.herokuapp.com/reviews')
             .then(res => res.json())
             .then(data => setReview(data))
     }, [])

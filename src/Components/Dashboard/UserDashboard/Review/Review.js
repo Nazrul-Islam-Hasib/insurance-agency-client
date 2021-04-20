@@ -9,7 +9,7 @@ const Review = () => {
             name: data.name,
             desc: data.review,
         }
-        const url = 'http://localhost:5000/addReview';
+        const url = 'https://insurance-agency-server.herokuapp.com/addReview';
         fetch(url, {
             method: 'POST',
             headers: {

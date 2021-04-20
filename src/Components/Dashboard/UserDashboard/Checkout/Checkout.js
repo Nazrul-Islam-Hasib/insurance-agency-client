@@ -24,7 +24,7 @@ const Checkout = () => {
                 paymentId: payment.id,
                 status: 'pending'
             }
-            const url = 'http://localhost:5000/addOrder';
+            const url = 'https://insurance-agency-server.herokuapp.com/addOrder';
             fetch(url, {
                 method: 'POST',
                 headers: {

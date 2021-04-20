@@ -9,7 +9,7 @@ const Sidebar = () => {
     const [loggedInUser, setLoggedInUser] = useContext(LoggedInContext);
     const [admin, setAdmin] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/admin')
+        fetch('https://insurance-agency-server.herokuapp.com/admin')
             .then(res => res.json())
             .then(data => setAdmin(data))
     }, [])
