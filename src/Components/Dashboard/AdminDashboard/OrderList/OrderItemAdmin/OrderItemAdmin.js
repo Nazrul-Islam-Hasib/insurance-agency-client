@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const OrderItemAdmin = (props) => {
-    const { name, price, email, service, status, _id } = props.order;
+    const { name, price, email, service, status, _id, paymentId } = props.order;
     const [updatedStatus, setUpdatedStatus] = useState('');
     const updateOrder = (id) => {
         const url = `http://localhost:5000/update/${id}`
@@ -31,6 +31,7 @@ const OrderItemAdmin = (props) => {
             <td>{email}</td>
             <td>{service}</td>
             <td>{price}$</td>
+            <td>{paymentId}</td>
             <td>
                 <select onChange={handleSelect}>
                     <option value={status}>{status}</option>

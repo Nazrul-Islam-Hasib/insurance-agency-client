@@ -45,10 +45,10 @@ const Checkout = () => {
     if (selectedService.name !== undefined) {
         return (
             <div className="container-fluid row">
-                <div className="col-md-4 pl-0">
+                <div className="col-md-2 pl-0">
                     <Sidebar></Sidebar>
                 </div>
-                <div className="col-md-6 justify-content-center align-items-center">
+                <div className="col-md-10 justify-content-center align-items-center">
                     <div className="container mt-5">
                         <div className="checkout-form">
                             <h2>Customer details</h2>
@@ -70,10 +70,10 @@ const Checkout = () => {
     else{
         return (
             <div className="container-fluid row">
-                <div className="col-md-4 pl-0">
+                <div className="col-md-2 pl-0">
                     <Sidebar></Sidebar>
                 </div>
-                <div className="col-md-6 justify-content-center align-items-center">
+                <div className="col-md-10 justify-content-center align-items-center">
                     <div className="container mt-5">
                         <div className="checkout-form">
                             <p>Select a service for checkout</p>

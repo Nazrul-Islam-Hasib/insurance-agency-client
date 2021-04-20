@@ -29,10 +29,10 @@ const MakeAdmin = () => {
     };
     return (
         <div className="container-fluid row">
-            <div className="col-md-4 pl-0">
+            <div className="col-md-2 pl-0">
                 <Sidebar></Sidebar>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-10">
                 <div className="container mt-5">
                     <form onSubmit={handleSubmit(onSubmit)} className="text-center product-form">
                         <p>Add new Admin</p>

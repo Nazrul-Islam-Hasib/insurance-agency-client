@@ -11,10 +11,10 @@ const OrderList = () => {
     }, [])
     return (
         <div className="container-fluid row">
-            <div className="col-md-4 pl-0">
+            <div className="col-md-2 pl-0">
                 <Sidebar></Sidebar>
             </div>
-            <div className="col-md-8  mt-5">
+            <div className="col-md-10  mt-5">
                 <div className="row">
                     <table className="table">
                         <thead>
@@ -23,6 +23,7 @@ const OrderList = () => {
                                 <th scope="col">Email</th>
                                 <th scope="col">Service</th>
                                 <th scope="col">price</th>
+                                <th scope="col">PaymentId</th>
                                 <th scope="col">Status</th>
                             </tr>
                         </thead>
