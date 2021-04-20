@@ -1,0 +1,40 @@
+.footer-list{
+    display: block;
+}
+.footer-list li{
+    color: #111111;
+    cursor: pointer;
+}
+.footer-list li:hover{
+    color: #CF4056;
+}
+.footer-text{
+    border-top: 1px solid #CF4056;
+}
+.social{
+    margin-left: 45px;
+}
+.social-icon{
+    display: inline-block;
+    padding: 0 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+#fb{
+    color: #608AF0;
+}
+#fb:hover{
+    color: #5369EC;
+}
+#twitter{
+    color: #1DA1F2;
+}
+#twitter:hover{
+    color: #2175C8;
+}
+#insta{
+    color: rgba(217, 36, 36, 0.9);
+}
+#insta:hover{
+    color: rgba(217, 36, 36, 1);
+}
