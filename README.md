@@ -19,7 +19,7 @@ Open [https://insurance-agency-6d225.web.app/](https://insurance-agency-6d225.we
 ### `Server site`
 
 You can click the link to see server side code.\
-Open [https://github.com/Porgramming-Hero-web-course/complete-website-server-Nazrul-Islam-Hasib](https://github.com/Porgramming-Hero-web-course/complete-website-server-Nazrul-Islam-Hasib) to view the server side implementation.
+Open [https://github.com/Nazrul-Islam-Hasib/insurance-agency-server](https://github.com/Nazrul-Islam-Hasib/insurance-agency-server) to view the server side implementation.
 
 
 ### `npm start`
